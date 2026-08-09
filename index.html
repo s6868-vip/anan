@@ -35,7 +35,7 @@
             background-attachment: fixed;
             color: #E2E8F0;
             min-height: 100vh;
-            padding: 20px 15px 40px;
+            padding: 15px 12px 30px;
             display: flex;
             justify-content: center;
         }
@@ -51,8 +51,8 @@
             background: var(--card-bg);
             border: 1px solid rgba(255, 255, 255, 0.12);
             border-radius: 20px;
-            padding: 20px;
-            margin-bottom: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
             box-shadow: 0 10px 25px rgba(0,0,0,0.6);
         }
 
@@ -60,8 +60,8 @@
         .hero-banner {
             display: flex;
             flex-direction: column;
-            gap: 16px;
-            padding: 16px;
+            gap: 10px;
+            padding: 8px;
         }
 
         .hero-item {
@@ -69,27 +69,27 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 16px;
+            gap: 10px;
             background: linear-gradient(180deg, rgba(30, 10, 15, 0.6) 0%, rgba(15, 20, 30, 0.8) 100%);
             border: 1px solid rgba(255, 0, 60, 0.25);
             border-radius: 14px;
-            padding: 20px 16px;
+            padding: 12px 10px;
             box-shadow: inset 0 0 15px rgba(255, 0, 60, 0.05);
             text-align: center;
         }
 
-        /* 顶部主徽章标签（保留显眼红金风格） */
+        /* 顶部主徽章标签 */
         .hero-badge {
-            font-size: 19.5px;
+            font-size: 15px;
             font-weight: 900;
-            padding: 8px 20px;
-            border-radius: 24px;
+            padding: 5px 16px;
+            border-radius: 20px;
             white-space: nowrap;
             letter-spacing: 1px;
             background: linear-gradient(135deg, #8B0000 0%, #D32F2F 50%, #8B0000 100%);
             color: #FFFFFF;
             border: 1px solid #FF5252;
-            box-shadow: 0 0 12px rgba(255, 0, 60, 0.4), inset 0 0 6px rgba(255, 255, 255, 0.3);
+            box-shadow: 0 0 10px rgba(255, 0, 60, 0.4), inset 0 0 6px rgba(255, 255, 255, 0.3);
             text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
         }
 
@@ -99,28 +99,24 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            gap: 8px;
-            margin-top: 8px;
+            gap: 6px;
+            margin-top: 4px;
             width: 100%;
         }
 
-        /* 优化后的底部 4 个标签配色：黑青微光风格 */
+        /* 底部 4 个标签风格 */
         .badge-footer-group .hero-badge {
-            font-size: 12.5px;
+            font-size: 11px;
             font-weight: 700;
-            padding: 5px 12px;
-            border-radius: 12px;
+            padding: 4px 10px;
+            border-radius: 10px;
             letter-spacing: 0.5px;
             white-space: normal;
             text-align: center;
-            /* 背景：深青紫半透明渐变 */
             background: linear-gradient(135deg, rgba(0, 242, 254, 0.12) 0%, rgba(255, 0, 122, 0.1) 100%);
-            /* 文字：高亮荧光青白 */
             color: #E0F9FF;
-            /* 边框：青色微光 */
             border: 1px solid rgba(0, 242, 254, 0.4);
-            /* 阴影与发光效果 */
-            box-shadow: 0 0 8px rgba(0, 242, 254, 0.15), inset 0 0 6px rgba(0, 242, 254, 0.1);
+            box-shadow: 0 0 6px rgba(0, 242, 254, 0.15), inset 0 0 4px rgba(0, 242, 254, 0.1);
             text-shadow: 0 0 4px rgba(0, 242, 254, 0.5);
         }
 
@@ -131,10 +127,10 @@
             width: 100%;
         }
 
-        /* 彩虹流光文本 */
+        /* 彩虹流光文本（字体缩小50%至 11.25px，行高同步收紧） */
         .rainbow-glow-text {
-            font-size: 22.5px;
-            line-height: 1.6;
+            font-size: 11.25px;
+            line-height: 1.45;
             font-weight: 800;
             letter-spacing: 0px;
             text-align: center;
@@ -160,7 +156,7 @@
                 filter: drop-shadow(0 0 2px rgba(0, 242, 254, 0.3));
             }
             100% {
-                filter: drop-shadow(0 0 8px rgba(0, 242, 254, 0.8)) drop-shadow(0 0 12px rgba(255, 0, 122, 0.4));
+                filter: drop-shadow(0 0 6px rgba(0, 242, 254, 0.8)) drop-shadow(0 0 10px rgba(255, 0, 122, 0.4));
             }
         }
 
@@ -170,25 +166,25 @@
         }
 
         .app-logo {
-            width: 80px;
-            height: 80px;
+            width: 70px;
+            height: 70px;
             background: rgba(0, 242, 254, 0.1);
             border: 2px solid var(--neon-cyan);
-            border-radius: 20px;
-            margin: 0 auto 15px;
+            border-radius: 18px;
+            margin: 0 auto 12px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: var(--neon-cyan);
-            font-size: 38px;
+            font-size: 32px;
             font-weight: 900;
             box-shadow: 0 0 15px rgba(0, 242, 254, 0.25);
         }
 
         .app-card h1 {
-            font-size: 26px;
+            font-size: 24px;
             color: #FFF;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
             font-weight: 800;
             letter-spacing: 1px;
         }
@@ -197,19 +193,19 @@
             background: rgba(255, 255, 255, 0.03);
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 16px;
-            padding: 18px;
-            margin-top: 15px;
+            padding: 15px;
+            margin-top: 12px;
         }
 
         .server-box p {
-            font-size: 14px;
+            font-size: 13px;
             color: #A0AEC0;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
         .server-box strong {
             color: var(--neon-cyan);
-            font-size: 34px;
+            font-size: 30px;
         }
 
         .copy-tag {
@@ -217,11 +213,11 @@
             background: rgba(255, 0, 122, 0.15);
             color: #FFFFFF;
             border: 2px solid var(--neon-pink);
-            font-size: 24px;
+            font-size: 20px;
             font-weight: 900;
-            padding: 10px 35px;
-            border-radius: 30px;
-            margin-top: 12px;
+            padding: 8px 28px;
+            border-radius: 25px;
+            margin-top: 10px;
             cursor: pointer;
             box-shadow: 0 0 15px rgba(255, 0, 122, 0.3);
             transition: transform 0.2s, background 0.2s;
@@ -236,8 +232,8 @@
         .download-group {
             display: flex;
             flex-direction: column;
-            gap: 16px;
-            margin-bottom: 25px;
+            gap: 12px;
+            margin-bottom: 20px;
         }
 
         .btn-download {
@@ -246,10 +242,10 @@
             align-items: center;
             justify-content: center;
             gap: 12px;
-            padding: 18px 20px;
-            border-radius: 18px;
+            padding: 16px 20px;
+            border-radius: 16px;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 17px;
             font-weight: 800;
             color: #FFF;
             transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -273,16 +269,16 @@
         }
 
         .btn-icon {
-            width: 26px;
-            height: 26px;
+            width: 24px;
+            height: 24px;
             fill: currentColor;
         }
 
         .section-title {
             text-align: center;
-            font-size: 19px;
+            font-size: 18px;
             font-weight: 900;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             color: var(--neon-cyan);
             letter-spacing: 1px;
         }
@@ -290,13 +286,13 @@
         .step-header {
             display: flex;
             align-items: center;
-            gap: 12px;
-            margin-bottom: 12px;
+            gap: 10px;
+            margin-bottom: 10px;
         }
 
         .step-num {
-            width: 32px;
-            height: 32px;
+            width: 28px;
+            height: 28px;
             background: rgba(0, 242, 254, 0.15);
             color: var(--neon-cyan);
             border: 1px solid var(--neon-cyan);
@@ -305,43 +301,43 @@
             align-items: center;
             justify-content: center;
             font-weight: 900;
-            font-size: 16px;
+            font-size: 14px;
             flex-shrink: 0;
         }
 
         .step-header h3 {
-            font-size: 17px;
+            font-size: 16px;
             color: #FFF;
             font-weight: 800;
         }
 
         .step-desc {
-            font-size: 14px;
+            font-size: 13px;
             color: #A0AEC0;
-            line-height: 1.6;
-            margin-bottom: 15px;
+            line-height: 1.5;
+            margin-bottom: 12px;
         }
 
         .mockup-container {
             display: flex;
             justify-content: center;
-            margin-top: 15px;
+            margin-top: 12px;
         }
 
         .phone-mockup {
             width: 100%;
-            max-width: 240px;
+            max-width: 220px;
             background: #090C12;
-            border-radius: 24px;
-            padding: 10px;
+            border-radius: 20px;
+            padding: 8px;
             border: 1px solid rgba(255, 255, 255, 0.15);
         }
 
         .phone-screen {
             background: #171E2C;
-            border-radius: 18px;
-            padding: 20px 12px;
-            min-height: 150px;
+            border-radius: 16px;
+            padding: 16px 10px;
+            min-height: 130px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -354,10 +350,10 @@
             background: rgba(0, 242, 254, 0.12);
             color: var(--neon-cyan);
             border: 1px solid var(--neon-cyan);
-            font-size: 11px;
-            padding: 3px 10px;
-            border-radius: 12px;
-            margin-bottom: 12px;
+            font-size: 10px;
+            padding: 2px 8px;
+            border-radius: 10px;
+            margin-bottom: 8px;
             font-weight: 700;
         }
 
@@ -365,15 +361,15 @@
             width: 100%;
             background: rgba(255, 255, 255, 0.03);
             border: 1px dashed rgba(255, 255, 255, 0.2);
-            border-radius: 12px;
-            padding: 10px 8px;
-            margin-top: 8px;
+            border-radius: 10px;
+            padding: 8px 6px;
+            margin-top: 6px;
         }
 
         .mockup-highlight {
             color: var(--neon-pink);
             font-weight: bold;
-            font-size: 16px;
+            font-size: 15px;
         }
 
         .highlight-click {
@@ -390,9 +386,9 @@
             transform: translate(-50%, -50%);
             background: rgba(0, 0, 0, 0.85);
             color: #FFF;
-            padding: 12px 24px;
-            border-radius: 25px;
-            font-size: 14px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 13px;
             font-weight: bold;
             border: 1px solid var(--neon-pink);
             box-shadow: 0 0 15px rgba(255, 0, 122, 0.5);
